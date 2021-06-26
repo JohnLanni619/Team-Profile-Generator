@@ -24,7 +24,7 @@ test("Can set email via constructor argument", () => {
 });
 
 test("Can get name via getName()", () => {
-  const testValue = "Alice";
+  const testValue = "Alice";   
   const e = new Employee(testValue);
   expect(e.getName()).toBe(testValue);
 });
