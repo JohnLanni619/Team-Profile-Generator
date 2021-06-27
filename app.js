@@ -21,7 +21,7 @@ const addTeamMember = teamData => {
             name: 'employeeType',
             message: 'Which type of employee would you like to add?',
             type: 'rawlist',
-            choices: ['Engineer', 'Intern', 'Manager']
+            choices: ['Manager', 'Engineer', 'Intern']
         }
         ])
         .then(response => {
